@@ -11,31 +11,39 @@ class Find extends Component {
         description:"",
         image: "",
         link: ""
-    }
+    };
+
+    // Load searched books
     componentDidMount(){
         this.LoadBook()
-    }
+    };
+
+    // Handle user input into search bar and setting state
     handleInputChange = event =>{
         const {name, value } = event.target;
         this.setState({
             [name] : value 
         })
-    }   
+    };
+
+    // Submit search query and setting empty books array in state to search results
     handleFormSubmit = event =>{
         event.preventDefault()
         API.searchBooks(this.state.title)
         .then(res => this.setState({books:res.data.items}))
-                  
         .catch(err => console.log(err))
-    }
+    };
+
+    // Searching for books based on user input from State
     LoadBook = () => {
         API.searchBooks(this.state.title)
         .then(res => {
-        
             this.setState({books: res.data.items})
             console.log(res.data.items);
-        })
-    }
+        });
+    };
+
+    // Saving book to database
     saveButtonSubmit = (event) =>{
         event.preventDefault()
         const infoArr = event.target.value;
@@ -50,7 +58,8 @@ class Find extends Component {
             console.log(res)
         })
         .catch(err => console.log(err))
-    }
+    };
+
     render(){
         return (
             <div>
@@ -123,6 +132,6 @@ class Find extends Component {
             </Container>
             </div>
         );
-    }
-}
+    };
+};
 export default Find;

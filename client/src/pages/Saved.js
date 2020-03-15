@@ -3,8 +3,6 @@ import { Container, Button, Card, Col, Row } from 'react-bootstrap';
 import API from '../utils/API';
 import Header from "../components/Jumbotron/index";
 
-
-
 class Saved extends Component {
     state = {
         books: [],
@@ -15,29 +13,27 @@ class Saved extends Component {
         link: ""
     };
 
+    // Load saved books on page load
     componentDidMount() {
-        console.log("component did mount")
         this.loadBooks()
     };
 
+    // Get saved books from database and set State with title, author etc
     loadBooks = () => {
-        console.log("inside load books")
         API.getBooks()
-        
             .then(res => {
                 console.log(res.data)
                 this.setState({ books: res.data, title: res.data.title, authors: res.data.authors, description: res.data.description, image: res.data.image, link: res.data.link })
                 })
                 .catch(err => console.log(err))
+    };
 
-    }
-
+    // Delete book
     deleteBook = id => {
         API.deleteBook(id)
             .then(res => this.loadBooks())
             .catch(err => console.log(err))
-    }
-
+    };
 
     render() {
         return (
@@ -78,9 +74,7 @@ class Saved extends Component {
             </div>
         )
     };
-
-
-}
+};
 
 export default Saved;
 

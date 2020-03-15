@@ -1,23 +1,25 @@
 # Google Book Search 
 
-## Summary 
- Google Book Search is a React application that allows users to search for books, getting back the books information and allows them to save selected books to their saved books list. React componenets are built using classes and state is set for each book on both the search books page and the saved books page. This application uses the google books api and utilizes axios to make backend api requests. Express is used for backend functionality and creating the server. MongoDB handles user account information and allows users to store books to the database. 
+Google Book Search is a React application that allows users to search for books, getting back the books information and allows them to save selected books to their saved books list. React componenets are built using classes and state is set for each book on both the search books page and the saved books page. This application uses the google books api and utilizes axios to make backend api requests. Express is used for backend functionality and creating the server. MongoDB handles user account information and allows users to store books to the database. 
 
-## Demo
-[Deployed Site](https://quiet-lake-98090.herokuapp.com/) 
+ ![site](demo.png)
 
- 
+## Deployed Link
+[Visit Live Site](https://quiet-lake-98090.herokuapp.com/) 
+
 ## Technologies Used
-- React: Used to dynamically render components on browser and initiate functionality of the game based on user inputs.
-- MongoDB: Used as a templating engine for ul HTML snippets that hold the task cards, and separate the generation of the        different HTML from the rest of the JavaScript for cleaner and more organozed code.
-- Morgan: Request logger middleware for Node. js that simplifies the process of logging requests to the applicaiton application.
-- Express.js - Used for application set up of middle ware for end point connection between the front end and backend.
-- Node.js - Used for package managment and to execute JavaScript code to build the command line tool for server-side scripting.
-- Git - Version control system to track changes to source code.
-- GitHub - Hosts repository that can be deployed to GitHub Pages.
+* [React](https://reactjs.org/docs/getting-started.html): Used to dynamically render components on browser and initiate functionality
+* [React-bootstrap](https://www.npmjs.com/package/react-bootstrap)
+* [Node.js](https://nodejs.org/en/): Used for package management and to execute JavaScript code to build the command line tool for server-side scripting
+* [npmjs](https://docs.npmjs.com/): Package manager for JavaScript
+* [Express.js](https://expressjs.com/): Used for application set up of middle ware for end point connection between the front end and backend
+* [Axios](https://www.npmjs.com/package/axios): Promise based HTTP client
+* [MongoDB](https://www.mongodb.com/): Cross-platform document-oriented database program
+* [Morgan](https://www.npmjs.com/package/morgan): Request logger middleware for Node. js that simplifies the process of logging requests to the applicaiton application
+
  
-## Code Snippet
-The folowing code snippet handles the data response from the api request made to google books thought our API.getBooks(). During the mounting lifecycle the api request is made and we map the response setting its within our react card component that is then genereated on the page during the render lifecyle. 
+## Code snippet
+The folowing code snippet handles the data response from the api request made to google books thought our API.getBooks(). During the mounting lifecycle the api request is made and the response is mapped, setting it within the react card component. That is then genereated on the page during the render lifecyle. 
 ```js
  {this.state.books.length ? (
 <Row>
@@ -58,15 +60,7 @@ The folowing code snippet handles the data response from the api request made to
 )}
 ```
 
-## Built With
-* [React](https://reactjs.org/docs/getting-started.html)
-* [Reactbootstrap](https://www.npmjs.com/package/react-bootstrap)
-* [Node.js](https://nodejs.org/en/)
-* [npmjs](https://docs.npmjs.com/)
-* [Express.js](https://expressjs.com/)
-* [Axios](https://www.npmjs.com/package/axios)
-* [MongoDB](https://www.mongodb.com/)
-* [Morgan](https://www.npmjs.com/package/morgan)
+
 
 ## Authors
 
