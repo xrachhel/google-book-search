@@ -72,30 +72,30 @@ The folowing code snippet handles the data response from the api request made to
 
 **Kevin Chengyu Ko**
 - [LinkedIn](https://www.linkedin.com/in/kevin-ko-ab7a98196/)
-- [Link to Github](https://github.com/kokevin678/)
+- [Github](https://github.com/kokevin678/)
 - [Portfolio](https://kokevin678.github.io/portfolio/)
 
 **Chris Melby**
 - [LinkedIn](https://www.linkedin.com/in/chris-melby-71106b126/)
-- [Link to Github](https://github.com/cmelby)
+- [Github](https://github.com/cmelby)
 - [Portfolio](https://cmelby.github.io/portfolio/)
 
 **Casey Moldavon**
 - [LinkedIn](https://www.linkedin.com/in/casey-moldavon-442a1761/)
-- [Link to Github](https://github.com/casey-moldavon)
+- [Github](https://github.com/casey-moldavon)
 - [Portfolio](https://casey-moldavon.github.io/react-portfolio/)
 
 **Yali Miranda**
 - [LinkedIn](https://www.linkedin.com/in/yal%C3%AD-miranda-8b4b94199/)
-- [Link to Github](https://github.com/yjmiranda)
+- [Github](https://github.com/yjmiranda)
 - [Portfolio](https://yali-miranda-portfolio.herokuapp.com/)
 
 **Rachel Yeung**
-- [LinkedIn](https://www.linkedin.com/in/rachel-yeung-814986159/)
-- [Link to Github](https://github.com/xrachhel)
-- [Portfolio](https://xrachhel.github.io/updatedPortfolio/)
+* [LinkedIn](https://www.linkedin.com/in/rachel-yeung-814986159/)
+* [Github](https://github.com/xrachhel)
+* [Portfolio](https://rachelyeung.herokuapp.com/)
 
 **Andres Jimenez**
 - [LinkedIn](https://www.linkedin.com/in/andres-felipe-jimenez-ferreira-b67a35192/)
-- [Link to Github](https://github.com/AndresF97?tab=repositories)
+- [Github](https://github.com/AndresF97?tab=repositories)
 - [Portfolio](https://andresf97.github.io/Basic_portfolio_2/public/index.html)
